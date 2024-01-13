@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-13T18:29:34 IST" name="Suite" finished-at="2024-01-13T18:29:57 IST" duration-ms="23215">
+    <groups>
+    </groups>
+    <test started-at="2024-01-13T18:29:34 IST" name="Test" finished-at="2024-01-13T18:29:57 IST" duration-ms="23215">
+      <class name="org.test.ReqResAssessment">
+        <test-method signature="getList()[pri:0, instance:org.test.ReqResAssessment@5d908d47]" started-at="2024-01-13T18:29:53 IST" name="getList" finished-at="2024-01-13T18:29:55 IST" duration-ms="2042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getList -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.test.ReqResAssessment@5d908d47]" started-at="2024-01-13T18:29:53 IST" name="setup" finished-at="2024-01-13T18:29:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getSingle()[pri:0, instance:org.test.ReqResAssessment@5d908d47]" started-at="2024-01-13T18:29:55 IST" name="getSingle" finished-at="2024-01-13T18:29:56 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingle -->
+        <test-method signature="postUser()[pri:0, instance:org.test.ReqResAssessment@5d908d47]" started-at="2024-01-13T18:29:56 IST" name="postUser" finished-at="2024-01-13T18:29:57 IST" duration-ms="1252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUser -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:org.test.ReqResAssessment@5d908d47]" started-at="2024-01-13T18:29:57 IST" name="closing" finished-at="2024-01-13T18:29:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- org.test.ReqResAssessment -->
+      <class name="org.test.SauceDemoAssessment">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.test.SauceDemoAssessment@12591ac8]" started-at="2024-01-13T18:29:33 IST" name="setup" finished-at="2024-01-13T18:29:34 IST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="startLogin()[pri:0, instance:org.test.SauceDemoAssessment@12591ac8]" started-at="2024-01-13T18:29:34 IST" name="startLogin" finished-at="2024-01-13T18:29:38 IST" duration-ms="4684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startLogin -->
+        <test-method signature="tc1(java.lang.String,java.lang.String)[pri:0, instance:org.test.SauceDemoAssessment@12591ac8]" started-at="2024-01-13T18:29:38 IST" name="tc1" description="Multiple crendentail Combinations validation." data-provider="Credentials" finished-at="2024-01-13T18:29:39 IST" duration-ms="880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method signature="tc1(java.lang.String,java.lang.String)[pri:0, instance:org.test.SauceDemoAssessment@12591ac8]" started-at="2024-01-13T18:29:39 IST" name="tc1" description="Multiple crendentail Combinations validation." data-provider="Credentials" finished-at="2024-01-13T18:29:40 IST" duration-ms="521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method signature="tc1(java.lang.String,java.lang.String)[pri:0, instance:org.test.SauceDemoAssessment@12591ac8]" started-at="2024-01-13T18:29:40 IST" name="tc1" description="Multiple crendentail Combinations validation." data-provider="Credentials" finished-at="2024-01-13T18:29:40 IST" duration-ms="431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcccd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method signature="tc2(java.lang.String,java.lang.String)[pri:0, instance:org.test.SauceDemoAssessment@12591ac8]" started-at="2024-01-13T18:29:40 IST" name="tc2" description="Valid Login success and about us page launch" finished-at="2024-01-13T18:29:51 IST" duration-ms="10298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method signature="tc3()[pri:0, instance:org.test.SauceDemoAssessment@12591ac8]" started-at="2024-01-13T18:29:51 IST" name="tc3" description="Adding highest value Product to the cart page" finished-at="2024-01-13T18:29:51 IST" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method signature="tc4(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.test.SauceDemoAssessment@12591ac8]" started-at="2024-01-13T18:29:51 IST" name="tc4" description="Verify checkout page contains total price in $xx.yy format" finished-at="2024-01-13T18:29:53 IST" duration-ms="1407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Balaji]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[600112]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method signature="tc5()[pri:0, instance:org.test.SauceDemoAssessment@12591ac8]" started-at="2024-01-13T18:29:53 IST" name="tc5" description="Verify order successful messgae" finished-at="2024-01-13T18:29:53 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method signature="tc6()[pri:0, instance:org.test.SauceDemoAssessment@12591ac8]" started-at="2024-01-13T18:29:53 IST" name="tc6" description="Logged out successfully" finished-at="2024-01-13T18:29:53 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6 -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:org.test.SauceDemoAssessment@12591ac8]" started-at="2024-01-13T18:29:53 IST" name="closing" finished-at="2024-01-13T18:29:53 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+        <test-method is-config="true" signature="ending()[pri:0, instance:org.test.SauceDemoAssessment@12591ac8]" started-at="2024-01-13T18:29:57 IST" name="ending" finished-at="2024-01-13T18:29:57 IST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ending -->
+      </class> <!-- org.test.SauceDemoAssessment -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
